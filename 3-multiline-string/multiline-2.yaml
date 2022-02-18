@@ -1,0 +1,22 @@
+--- 
+# Try: |, |+, |-, >, >+, >-
+dc1:
+  datacenter: "dc-na-1"
+  dclocation: "Boston"
+  known_issues: null
+  server_count: 3000
+  note1: |3-
+      dc-na-1 datacenter was launched in 2010.
+      This comment was added to understand the
+      multiline string(s) in YAML. We have about
+      50 technical resources dedicated to supporting
+      the data center operations.
+
+
+
+  note2: >-
+      The dc is architected to handle the projected 
+      capacity of 200PB of storage. It can be expanded 
+      up to 500PB of storage capacity.
+
+

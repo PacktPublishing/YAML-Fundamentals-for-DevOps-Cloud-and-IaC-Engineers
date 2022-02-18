@@ -1,0 +1,7 @@
+# Example of a list
+# - indicates that it is an element of an array
+---
+sizes:
+  - small
+  - medium
+  - large

@@ -1,0 +1,15 @@
+# Understanding indentation (not tabs)
+---
+customer1:
+  name: "Peter Harris"
+  city: "Boston"
+  state: MA
+
+customer2:
+  name: "Tom Kin"
+  city: "Houston"
+  state: TX
+  details:
+  products_purchased: 10
+  enrolled: 2015
+...

@@ -1,0 +1,32 @@
+# Using <<: to include the whole set of key-value pairs
+---
+dell720: &dell720
+  make: "Dell"
+  model: "720"
+  release_year: 2011
+
+dc_us_east1: &dc_us_east1
+  location: "Boston"
+  state: "MA"
+
+dc_us_east2: &dc_us_east2
+  location: "Baltimore"
+  state: "MD"
+
+server1: 
+  <<: *dell720
+  staged_year: 2015
+  max-cpu-sockets: 2
+  max-cpu-cores-per-socket: 8
+  usb-ports: 4
+  note: "server1"
+  <<: *dc_us_east1
+
+server2: 
+  <<: *dell720
+  staged_year: 2015
+  max-cpu-sockets: 2
+  max-cpu-cores-per-socket: 8
+  usb-ports: 4
+  note: "server2"
+  <<: *dc_us_east2

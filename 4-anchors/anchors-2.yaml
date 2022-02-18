@@ -1,0 +1,17 @@
+---
+make: &make dell 720
+
+server1:
+  servermake: *make
+  staged_year: 2015
+  max-cpu-sockets: 4
+  max-cpu-cores-per-socket: 8
+  usb-ports: 8
+  note: "Reserved Node"
+
+server2:
+  servermake: *make
+  staged_year: 2015
+  max-cpu-sockets: 2
+  max-cpu-cores-per-socket: 8
+  usb-ports: 4

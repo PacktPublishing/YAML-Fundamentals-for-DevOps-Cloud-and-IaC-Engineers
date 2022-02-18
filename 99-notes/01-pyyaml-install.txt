@@ -1,0 +1,7 @@
+1. Install Python based on your OS
+
+2. Install pyyaml
+pip install pyyaml
+
+3. Misc Commands
+pip install --upgrade pip

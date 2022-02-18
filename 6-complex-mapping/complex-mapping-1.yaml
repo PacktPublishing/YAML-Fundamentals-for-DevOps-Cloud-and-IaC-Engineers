@@ -1,0 +1,8 @@
+--- 
+dc_na:
+  location: "Boston"
+  total_servers: 5000
+  total_racks: 225
+  when was the air cooling upgraded: 2019
+  Wow! How old is this dc?: 10 years old
+... 

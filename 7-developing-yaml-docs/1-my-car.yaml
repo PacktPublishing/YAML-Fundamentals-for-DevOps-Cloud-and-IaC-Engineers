@@ -1,0 +1,22 @@
+---
+car_details:
+  make: VM
+  model: Passat
+  year: 2021
+  engine:
+    count: 4
+    type: tubeless
+  console:
+    os_version: 2.1
+    bluetooth: true
+    stereo:
+      make: Bose
+      no_of_speakers: 5
+      sub: true
+      radio:
+        - FM1
+        - FM2
+        - FM3
+      radio2: [FM1, FM2, FM3]
+        
+...

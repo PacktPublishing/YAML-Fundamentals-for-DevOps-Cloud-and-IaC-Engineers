@@ -1,0 +1,32 @@
+# YAML document starts with three dashes (---)
+--- 
+dc_na:
+  ? location
+  : "Boston"
+  ? total_servers
+  : 5000
+  ? total_racks
+  : 225
+  # Long string as a key
+  ? when was the air cooling upgraded
+  : 2019
+  # Long string as a key
+  ? Wow! How old is this dc?
+  : 10 years old
+  # Very long key. Practically makes no sense
+  ? |-
+    YAML is a human-readable data-serialization language.
+    It is commonly used for configuration files and in 
+    applications where data is being stored or transmitted. 
+    YAML targets many of the same communications applications 
+    as Extensible Markup Language (XML) but has a minimal syntax 
+    which intentionally differs from SGML.
+  : True
+  # Key itself is blank
+  ?  
+  : "Wow"
+  # Special character "!" as the key
+  ? "!"
+  : "Hello Hello Hello"
+... 
+# Three dots (...) end of yaml document indicator

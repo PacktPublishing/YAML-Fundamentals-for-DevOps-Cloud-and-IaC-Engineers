@@ -1,0 +1,10 @@
+# Datatypes
+# Scalars
+--- 
+state: California
+zip1: !!str 95035
+zip2: 95035
+zip3: !!float 95035
+occupied: true
+lease_end_date: “2025-01-01” 
+... 

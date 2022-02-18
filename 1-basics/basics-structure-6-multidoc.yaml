@@ -1,0 +1,22 @@
+# You parser might not accept this as an valid YAML document
+# Multi YAML documents in a single file is very common in k8s
+---
+name: Peter Harris
+age: 32
+city: Dallas
+state: Texas
+cell: 111-222-3333
+note: waiting on techinican
+call_count: 2
+new_customer: true
+...
+---
+name: Gary Thompson
+age: 37
+city: Houston
+state: Texas
+cell: 222-333-4444
+note: waiting on techinican
+call_count: 5
+new_customer: true
+...

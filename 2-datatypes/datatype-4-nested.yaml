@@ -1,0 +1,53 @@
+# Maps: Key-value Pairs, Dictionary, Hash
+---
+dc1: 
+  datacenter: "dc-na-1" 
+  dclocation: "Boston"
+  known_issues: null
+  server_count: 3000
+  on-site-staff:
+    - John Rapter
+    - Peter Kilo
+    - Papa Jones
+    - Kelly Reen
+  clients:
+    walmart:
+      id: 101
+      start_date: 2021-01-01
+      contract_term_years: 5
+      servers_leased: 250
+      storage_leased: 100PT
+      contacts:
+        admin:
+          name: Rich Dan
+          email: rdan@walmart.com
+          telephone: 252-562-5266
+        staff_members:
+          - 
+            name: Leena Jones
+            email: ljones@walmart.com
+            telephone: 252-562-5265
+          - 
+            name: Alisha Kemper
+            email: akemper@walmart.com
+            telephone: 252-562-5267
+    target:
+      id: 1012
+      start_date: 2021-05-01
+      contract_term_years: 10
+      servers_leased: 500
+      storage_leased: 200PT    
+      contacts:
+        admin:
+          name: Lee Tom
+          email: lee.tom@target.com
+          telephone: 510-526-9896
+        staff_members:
+          - 
+            name: Waters Filo
+            email: waters.filo@target.com
+            telephone: 510-526-9892
+          - 
+            name: Bobby Brad
+            email: bobby.brad@target.com
+            telephone: 510-526-9891

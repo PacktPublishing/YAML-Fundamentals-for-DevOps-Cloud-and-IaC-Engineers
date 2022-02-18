@@ -1,0 +1,7 @@
+# Maps: Key-value Pairs, Dictionary, Hash
+---
+dc1: # Key = dc1, value = [the below listed 4 k-a pairs]
+  datacenter: "dc-na-1" # key = datacenter, value = dc-na-1
+  dclocation: "Boston"
+  known_issues: null
+  server_count: 3000

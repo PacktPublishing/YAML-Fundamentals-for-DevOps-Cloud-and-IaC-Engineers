@@ -1,0 +1,10 @@
+# nulls & boolean values
+--- 
+address: "101 Main Street, San Jose, CA - 95035"
+bedrooms:
+total_area: ~
+floors: null
+house_type: Null
+vacant: True
+ready_for_sale: False
+... 
